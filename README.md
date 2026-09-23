@@ -44,7 +44,49 @@ See instructions. Delete this line and replace with a short statement of what yo
 
 ## Stakeholders
 
-See instructions. Delete this line and replace with the name(s) of the stakeholder(s) you interviewed and lists showing their goals/needs, and problems/frustrations. Note which type of user each stakeholder represents. You may use pseudonyms or partial names to maintain their privacy, but you must privately share their full names and contact information as part of your submission of this exercise
+
+### User Type 1: Student
+
+#### Stakeholder Profile: Annalise (Student)
+
+* **Goals & Needs:**
+  1. **Lecture Focus:** A tool that allows her to remain fully engaged with the presenter instead of constantly switching focus between listening and note-taking.
+  2. **Automated Transcription:** Real-time speech-to-text functionality that accurately captures spoken lecture content.
+  3. **Streamlined Slide Creation:** A fast, low-effort process for converting spoken or written concepts into complete slide decks.
+  4. **Automated Formatting:** Intelligent layout and design capabilities that make slides look visually appealing without manual adjustment.
+
+* **Problems & Frustrations:**
+  1. **Transcription Inaccuracy:** When speaking from a script, the AI missed critical details and key information.
+  2. **Broken Visual Layouts:** Formatting issues disrupted the output (e.g., her title slide truncated halfway through the title with `...`).
+  3. **Pacing & Latency Friction:** Forced to pause repeatedly while speaking to allow the AI to catch up and generate slides, disrupting her speaking flow.
+  4. **Usability Barriers:** Found the overall navigation and user interface unintuitive to operate during testing.
+
+* **User Testing Observations:**
+  * Observed noticeable pauses during live presentation input due to real-time AI processing delay.
+  * Encountered UI rendering bugs on longer titles, leading to visual truncation.
+
+---
+
+### User Type 2: Instructor
+
+#### Stakeholder Profile: Raj (Instructor)
+
+* **Goals & Needs:**
+  1. **Minimalist UI:** A clean, distraction-free interface that is easy to navigate during live instruction.
+  2. **Cost & Experience:** Ad-free experience with transparent, open access for educational settings.
+  3. **Maintainability & Extensibility:** A platform actively developed with a clear roadmap for future updates and features.
+  4. **Hands-Free Operation:** Speech-driven control options that allow him to teach without being tied to a keyboard.
+
+* **Problems & Frustrations:**
+  1. **Lack of Session Controls:** Live recording/generation initiated immediately upon launch without a manual "Start" toggle, offering no preparation window.
+  2. **Data & Privacy Concerns:** Expressed concern over data exposure after noticing other users' project titles and student names visible in the app interface.
+  3. **Over-Reliance on AI:** Preferred a robust core slide-building application with *optional* AI integration, rather than a app centered entirely around automated generation.
+  4. **Poor AI Synthesis & Context:** The app merely copied and pasted spoken words verbatim onto slides rather than summarizing, synthesizing, or expanding upon the material.
+  5. **Irrelevant Media Generation:** The automated image feature fetched inaccurate and contextually mismatched images based on spoken input.
+
+* **User Testing Observations:**
+  * Experienced immediate friction upon landing on the interface due to auto-initiating live mode.
+  * Expressed strong security concerns regarding student data visibility in public dashboards.
 
 ## Product Vision Statement
 
