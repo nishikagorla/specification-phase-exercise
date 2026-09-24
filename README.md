@@ -94,7 +94,86 @@ Our team is enhancing The Slide Machine by introducing a discreet secondary cont
 
 ## User Requirements
 
-See instructions. Delete this line and place a list of your User Stories here, grouped by type of user. These should describe functionality that is new or changed, not functionality the app already has.
+User Type 1: Co-Presenter 
+
+User Stories: 
+
+1. As a Co-Presenter, I want to link my instance of Slide Machine to the active presentation via a private session code, so that I can open the secondary control panel on my own device without disrupting the main speaker. 
+
+2. As a Co-Presenter, I want to send direct text prompts through my secondary control panel while the main speaker is talking, so that I can silently provide missing terminology or key facts to the Ai without forcing the speaker to pause. 
+
+3. As a Co-Presenter, I want to preview the AI-generated slide draft on my secondary panel before releasing it to the main view, so that I can check for broken formatting or truncated titles before the audience sees them. 
+
+4. As a Co-Presenter, I want to view a real-time status queue of my submitted text prompts inside my control panel, so that I can monitor which instructions the AI is actively processing. 
+
+5. As a Co-Presenter, I want to receive an immediate error notification in my control panel if my prompt fails or drops connection, so that I know exactly when I need to re-submit my instruction. 
+
+6. As a Co-Presenter, I want to retract or delete a queued prompt with a single click, so that I can stop the AI from generating a slide if the main speaker addresses the point verbally. 
+
+7. As a Co-Presenter, I want to specify whether my prompt updates the active slide or generates a new one, so that I can refine existing content on screen without creating unnecessary extra slides. 
+
+8. As a Co-Presenter, I want to access a history log of all prompts sent during the session, so that I can review the past commands and quickly re-use effective ones. 
+
+9. As a Co-Presenter, I want customizable shortcut buttons in my control panel for common commands (like "Summarize in x Bullets" or "Fix Formatting"), so that I can refine slides in two seconds without having to type out long instructions during a fast-paced lecture. 
+
+10. As a Co-Presneter, I want to send private, discreet cue messages directly to the main speaker's screen, so that we can coordinate seamlessly without speaking out loud or disruptiong the audience. 
+
+11. As a Co-Presenter, I want to target a specific element on the active slide (e.g., "Title", "Bullet 2", "Graph"), so that the AI edits only that component without re-generating the entire slide.
+
+12. As a Co-Presenter, I want to drag and re-order prompts in my active queue, so that I can prioritize urgent factual corrections over general formatting tweaks.
+
+13. As a Co-Presenter, I want to edit the text of a queued prompt before the AI starts processing it, so that I can fix my own typos or update the instructions on the fly.
+
+14. As a Co-Presenter, I want to cancel or delete a queued prompt with a single tap, so that I can stop generation if the speaker addresses the point verbally.
+
+15. As a Co-Presenter, I want to reject a generated slide draft with a "Discard" button, so that a poorly formatted slide never makes it to the main presentation.
+
+16. As a Co-Presenter, I want to click a "Push to Audience Screen" button on my draft preview, so that the approved slide update immediately publishes to the public display.
+
+17. As a Co-Presenter, I want to make direct text edits to the pre-release slide draft on my screen, so that I can make minor touch-ups manually before pushing it to the main screen.
+
+18. As a Co-Presenter, I want to preview an AI-generated slide draft on my secondary device before publishing it live, so that I can verify visual formatting and title lengths.
+
+
+User Type 2: Main Speaker 
+
+User Stories: 
+
+1. As a Main Speaker, I want a toggle in my control panel to temporarily pause the speech-to text microphone feed, so that I can prevent the AI from generating junk slides when I takes side questions or go-off script. 
+
+2. As a Main Speaker, I want to generate host code from my presentation view, so that my Co-Presenter can pair their secondary control panel.
+
+3. As a Main Speaker, I want private banner messages from my Co-Presenter to appear briefly on my speaker screen (such as "Key detail added" or "2 minutes left"), so that we can coordinate seamlessly without speaking out loud or using other digital modes of communication. 
+
+4. As a Main Speaker, I want to toggle between 
+"Auto-Publish Mode" and "Approval Required Mode" for secondary prompts, so that I can decide whtether co-presenter edits go live insantly or wait for my approval. 
+
+5. As a Main Speaker, I want a "Freeze Audience View" toggle that locks the main display on the current slide, so that I can privately review co-presenter draft proposals or resolve prompt errors.
+
+6. As a Main Speaker, I want a single-click button to kick or disconnect an unauthorized secondary device, so that I retain full security access over my live presentation session.
+
+7. As a Main Speaker, I want a subtle visual badge showing my co-presenter's connection health, so that I know immediately if my partner drops offline. 
+
+8. As a Main Speaker, I want to set a maximum limit on connected secondary devices, so that extra devices do not overload my session or introduce confusion.
+
+9. As a Main Speaker, I want to assign granular permission levels to connected controllers (e.g., "Cue Messages Only", "Text Edits Only", "Full Layout Control"), so that I can bound how much influence a guest co-presenter has.
+
+10. As a Main Speaker, I want to view a real-time list of all connected secondary devices with their names, so that I know exactly who is active in my session.
+
+11. As a Main Speaker, I want to disconnect or block an unauthorized secondary device in one click, so that I maintain full control over my live presentation.
+
+12. As a Main Speaker, I want to press a single hotkey to accept or reject a pending co-presenter slide draft, so that I can approve updates mid-speech without touching a mouse.
+
+13. As a Main Speaker, I want to transfer slide-advancement authority to my co-presenter’s secondary controller, so that they can control the deck during their co-teaching segment.
+
+14. As a Main Speaker, I want a single-key emergency undo shortcut on my presenter screen, so that I can instantly revert an unwanted slide change made by my co-presenter
+
+15. As a Main Speaker, I want the presentation view to gracefully roll back to the last stable slide layout if an AI generation times out or fails, so that the audience never sees a broken screen.
+
+16. As a Main Speaker, I want the system to seamlessly transition to standard manual slide-advance mode if AI API rate limits are hit, so that my presentation experience remains unbroken.
+
+
+
 
 ## Activity Diagrams
 
