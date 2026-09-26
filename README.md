@@ -98,10 +98,6 @@ See instructions. Delete this line and place a list of your User Stories here, g
 
 ## Activity Diagrams
 
-### Co-Presenter Workflow
-
-#### Activity Diagram
-
 ### Co-Presenter Workflow(1)
 
 ![Co-Presenter Activity Diagram](co-presenter.png)
@@ -109,8 +105,17 @@ See instructions. Delete this line and place a list of your User Stories here, g
 #### User Story
 As a Co-Presenter, I want to send direct text prompts through my secondary control panel while the main speaker is talking, so that I can silently provide missing terminology or key facts to the AI without forcing the speaker to pause.
 
-#### Activity Diagram
 [Link](https://lucid.app/lucidspark/4ef88773-2451-4fc7-9989-e1650afa9442/edit?viewport_loc=1992%2C-2508%2C2048%2C1036%2C0_0&invitationId=inv_560e05f6-d7e0-431f-b126-4e81e6e6cdc3)
+
+### Main Presenter Workflow(1)
+
+![Main Presenter Activity Diagram](Main-presenter.png)
+
+#### User Story
+As a Main Presenter, I want the system to automatically trigger a rollback to the last stable layout if an AI generation fails or encounters rendering errors, so that my audience never sees a broken presentation screen on stage.
+
+#### Activity Diagram
+[Link](https://lucid.app/lucidchart/9ee911ec-7760-4c7a-a04a-885810ab89ce/edit?viewport_loc=-1851%2C-1635%2C8863%2C5267%2C0_0&invitationId=inv_bfa26cde-c94e-4f0e-8cc5-0f9137e35916)
 
 ## Wireframes
 
