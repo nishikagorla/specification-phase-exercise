@@ -98,7 +98,19 @@ See instructions. Delete this line and place a list of your User Stories here, g
 
 ## Activity Diagrams
 
-See instructions. Delete this line and place images of your UML Activity diagrams here, each with the text of the user story it illustrates.
+### Co-Presenter Workflow
+
+#### Activity Diagram
+
+### Co-Presenter Workflow(1)
+
+![Co-Presenter Activity Diagram](co-presenter.png)
+
+#### User Stories
+As a Co-Presenter, I want to send direct text prompts through my secondary control panel while the main speaker is talking, so that I can silently provide missing terminology or key facts to the AI without forcing the speaker to pause.
+
+#### Activity Diagram
+[Link](https://lucid.app/lucidspark/4ef88773-2451-4fc7-9989-e1650afa9442/edit?viewport_loc=1992%2C-2508%2C2048%2C1036%2C0_0&invitationId=inv_560e05f6-d7e0-431f-b126-4e81e6e6cdc3)
 
 ## Wireframes
 
