@@ -106,7 +106,7 @@ See instructions. Delete this line and place a list of your User Stories here, g
 
 ![Co-Presenter Activity Diagram](co-presenter.png)
 
-#### User Stories
+#### User Story
 As a Co-Presenter, I want to send direct text prompts through my secondary control panel while the main speaker is talking, so that I can silently provide missing terminology or key facts to the AI without forcing the speaker to pause.
 
 #### Activity Diagram
